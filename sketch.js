@@ -143,8 +143,6 @@ function draw() {
       coordinateY = worldcities.getString(i, 'lng');
 
       cityPosition = myMap.latLngToPixel(coordinateX, coordinateY);
-
-
     }
 
   }
@@ -180,7 +178,7 @@ function draw() {
     }
     userMissile(x, y);
   }
-  
+
   console.log(launchBomb);
 }
 
